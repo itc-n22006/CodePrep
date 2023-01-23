@@ -1,0 +1,34 @@
+import Link from 'next/link'
+
+export default function HOme () {
+  return (
+    <div>
+      <h1>CodePrep</h1>
+      <p>
+        <Link href='/page1' legacyBehavior>
+          <a>Sample_Website</a>
+        </Link>
+      </p>
+      <p>
+        <Link href='/page2' legacyBehavior>
+          <a>Sample_Website</a>
+        </Link>
+      </p>
+      <p>
+        <Link href='/page3' legacyBehavior>
+          <a>Sample_Website</a>
+        </Link>
+      </p>
+      <p>
+        <Link href='/page4' legacyBehavior>
+          <a>Sample_Website</a>
+        </Link>
+      </p>
+      <p>
+        <Link href='/page5' legacyBehavior>
+          <a>Sample_Website</a>
+        </Link>
+      </p>
+    </div>
+  )
+}
